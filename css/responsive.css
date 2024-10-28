@@ -13,3 +13,41 @@
     padding: 10px calc(100% / 2 / 5 - 20px);
   }
 }
+
+
+/**************** TABLET ******************/
+
+@media screen and (min-width: 768px){
+
+  main{
+    padding: 45px;
+  }
+  
+  header#topbar{
+    justify-content: left;
+  }
+
+  section header h2{
+    font-size: 2em;
+  }
+
+  section header h2.recipe-name span{
+    display: inline;
+  }
+
+  main .recipe-card .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+/* 
+  main .recipe-card .quick-notes ul li{
+    display: inline-block;
+    max-width: calc(100% / 3);
+  } */
+
+  aside.ads{
+    display: block;
+  }
+
+}
