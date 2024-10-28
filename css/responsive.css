@@ -1,1 +1,15 @@
 /* Soluzione qui */
+
+/*************** LARGE MOBILE **************/
+
+@media screen and (min-width: 576px) {
+
+  p.clearfix img{
+    float: left;
+    margin-right: 10px; 
+  }
+
+  .recipe .social-networks button.btn{
+    padding: 10px calc(100% / 2 / 5 - 20px);
+  }
+}
